@@ -1,0 +1,6 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"H1, H2, H3, H4",MountingHole_3.2mm_M3_DIN965_Pad,4,MountingHole,
+"J1, J2",4 pin header,2,4_pin_header,
+"J3, J4",PRT-14417,2,~,
+"R1, R2, R3, R4",1206,4,R,
+U1,Teensy_4.0,1,Teensy_4.0,
