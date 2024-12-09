@@ -8,8 +8,8 @@
 #define PYTHON_MODE 0
 #define DEBUG_MODE 1
 
-int mode = DEBUG_MODE;
-// int mode = PYTHON_MODE;
+// int mode = DEBUG_MODE;
+int mode = PYTHON_MODE;
 bool scan_I2C = false;
 
 // I2CScanner scanner;
