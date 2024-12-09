@@ -1,5 +1,7 @@
 # Hand hall sensors
 
+#Code
+
 ## To test the PCBs for the full hand:
 1) upload the code 'FullHand_HallSensors' to the teensy. This code reads the data of all the sensors and sends it over serial so it can be read in a python script for example. This code does not work with Kai's framework to the full hand, but allows to easily test that all the sensors work correctly. 
 2) Run the python code 'FullHand_visualisation' to be able to visualise in python all the sensors of the hand. The area of the circles are proportional to the sensor response.
@@ -18,3 +20,12 @@ Upload the code 'FullHand_Haptic_ForAdaptHand' to the teensy. This codes collect
 ## Python code description
 - FullHand_tip_visualisation : receives data via serial from the teensy (running the 'FullHand_HallSensors' or 'FullHand_Haptic' code) and displays circles whose area is proportional to the sensor readings. Works only with the tip sensors.
 - FullHand_visualisation : receives data via serial from the teensy (running the 'FullHand_HallSensors' or 'FullHand_Haptic' code) and displays circles whose area is proportional to the sensor readings. Works for all the sensors. 
+
+
+#PCBs
+In MainPCB_V3, do not use the DMP31D0U-7 MOSFET but instead use the BSS84. The teensy is not capable of delivering enough current to drive the DMP31D0U-7 gate. 
+
+For each hand, you will need one Thumb_V1 FPCB, three Index_Middle_Ring_V3 FPCB, one Pinky_V1 and one MainPCB_V3. 
+
+The hall sensors exist in three versions (with three different I2C addresses). The correct sensor placement is shown in 'FullHandDiagram.png'. 
+![Full hand sensor positions](FullHandDiagram.png)
