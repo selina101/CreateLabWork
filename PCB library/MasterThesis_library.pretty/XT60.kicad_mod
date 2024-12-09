@@ -1,0 +1,58 @@
+(footprint "XT60" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr through_hole)
+  (fp_text reference "REF**" (at -5.08 -8.08 unlocked) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp 61fdc85e-e5a0-4b86-9cfd-1b310352989b)
+  )
+  (fp_text value "XT60" (at -5.08 -6.58 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp b5e72820-e7a6-491c-8647-cfdd77e6e8de)
+  )
+  (fp_text user "-" (at 17.3 0.5 unlocked) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.1)) (justify left bottom))
+    (tstamp 68850748-7f41-4f69-8132-53b3da0bd738)
+  )
+  (fp_text user "+" (at -1.9 0.5 unlocked) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.1)) (justify left bottom))
+    (tstamp d18351ad-611d-4a30-9071-ccfe4b022868)
+  )
+  (fp_line (start 0 4) (end 0 4)
+    (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 1c1d1dd7-1c5b-4b2a-80e8-5d8bec2f0f56))
+  (fp_line (start 0.05 3.45) (end 0.05 -3.45)
+    (stroke (width 0.2) (type solid)) (layer "F.SilkS") (tstamp 132c3cae-fc56-4bee-a90c-5e18123d5ec2))
+  (fp_line (start 1.05 -4.45) (end 13.807107 -4.45)
+    (stroke (width 0.2) (type solid)) (layer "F.SilkS") (tstamp 10cc6cfb-b47d-4ad1-bdee-37cd0f3315d3))
+  (fp_line (start 13.807107 -4.45) (end 16.55 -1.707107)
+    (stroke (width 0.2) (type solid)) (layer "F.SilkS") (tstamp 22e6d678-ce77-45d8-bf4d-71565bb39a6f))
+  (fp_line (start 13.807107 4.45) (end 1.05 4.45)
+    (stroke (width 0.2) (type solid)) (layer "F.SilkS") (tstamp 07924e78-d7ef-45d2-868d-cb43dc7ffe55))
+  (fp_line (start 16.55 -1.707107) (end 16.55 1.707107)
+    (stroke (width 0.2) (type solid)) (layer "F.SilkS") (tstamp 0cdfdb6f-031f-4756-9a44-2fc87d9d70c5))
+  (fp_line (start 16.55 1.707107) (end 13.807107 4.45)
+    (stroke (width 0.2) (type solid)) (layer "F.SilkS") (tstamp 22bdd151-c4b8-4510-b23d-8f3d9a0110bb))
+  (fp_arc (start 0.05 -3.45) (mid 0.342893 -4.157107) (end 1.05 -4.45)
+    (stroke (width 0.2) (type solid)) (layer "F.SilkS") (tstamp f46f7ebc-b24b-4243-a95f-1844c112e737))
+  (fp_arc (start 1.05 4.45) (mid 0.342893 4.157107) (end 0.05 3.45)
+    (stroke (width 0.2) (type solid)) (layer "F.SilkS") (tstamp 4982e65a-d049-4eb0-87f3-b1daecacc8dc))
+  (pad "1" thru_hole oval (at 4.8 0) (size 6 7) (drill 4) (layers "*.Cu" "*.Mask") (tstamp e292fd36-042f-4c9d-aefa-aed57c96eaec))
+  (pad "2" thru_hole oval (at 11.8 0) (size 6 7) (drill 4) (layers "*.Cu" "*.Mask") (tstamp 1e77d4d0-a7ae-4187-992f-817fd1fa6f47))
+  (group "" (id 10569ecd-0071-4cfa-9440-024418cafa82)
+    (members
+      07924e78-d7ef-45d2-868d-cb43dc7ffe55
+      0cdfdb6f-031f-4756-9a44-2fc87d9d70c5
+      10cc6cfb-b47d-4ad1-bdee-37cd0f3315d3
+      132c3cae-fc56-4bee-a90c-5e18123d5ec2
+      1c1d1dd7-1c5b-4b2a-80e8-5d8bec2f0f56
+      22bdd151-c4b8-4510-b23d-8f3d9a0110bb
+      22e6d678-ce77-45d8-bf4d-71565bb39a6f
+      4982e65a-d049-4eb0-87f3-b1daecacc8dc
+      f46f7ebc-b24b-4243-a95f-1844c112e737
+    )
+  )
+  (model ":KICAD_THESIS_DIR:PCB/PCB library/3Dmodels/XT60.STEP"
+    (offset (xyz 8.5 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)
