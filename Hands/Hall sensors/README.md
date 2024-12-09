@@ -2,11 +2,11 @@
 
 ## To test the PCBs for the full hand:
 1) upload the code 'FullHand_HallSensors' to the teensy. This code reads the data of all the sensors and sends it over serial so it can be read in a python script for example. This code does not work with Kai's framework to the full hand, but allows to easily test that all the sensors work correctly. 
-2) Run the python code 'FullHand_visualisation' to be able to visulaise in python all the sensors of the hand. The area of the circles are proportional to the sensor response.
+2) Run the python code 'FullHand_visualisation' to be able to visualise in python all the sensors of the hand. The area of the circles are proportional to the sensor response.
 
 
 ## To build the PCBs for the full hand:
-Upload the code 'FullHand_Haptic_ForAdaptHand' to the teensy. This codes colects the data for all the sensors. This makes is the codde needed to connect the PCBs to Kai's framework for the full hand. 
+Upload the code 'FullHand_Haptic_ForAdaptHand' to the teensy. This codes collects the data for all the sensors. This makes is the code needed to connect the PCBs to Kai's framework for the full hand. 
 
 
 ## Arduino code description
