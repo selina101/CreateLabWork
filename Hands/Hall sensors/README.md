@@ -1,29 +1,20 @@
-# CreateLabWork
-In this repo you will find all the work done during the master thesis and during the master valorisation.
+# Hand hall sensors
 
-For the PCBs, you will find all the KiCAD files, as well as the gerber files to be able to order PCBs. The file 'PCB library' contains the footprint, the symbols and the 3D models of all the components used for all of the PCBs.
+## To test the PCBs for the full hand:
+1) upload the code 'FullHand_HallSensors' to the teensy. This code reads the data of all the sensors and sends it over serial so it can be read in a python script for example. This code does not work with Kai's framework to the full hand, but allows to easily test that all the sensors work correctly. 
+2) Run the python code 'FullHand_visualisation' to be able to visulaise in python all the sensors of the hand. The area of the circles are proportional to the sensor response.
 
 
-## GOAT
-Contains the PCB for Max's robot. 
-All the components were bought separately and soldered by hand. 
+## To build the PCBs for the full hand:
+Upload the code 'FullHand_Haptic_ForAdaptHand' to the teensy. This codes colects the data for all the sensors. This makes is the codde needed to connect the PCBs to Kai's framework for the full hand. 
 
-## Hands
-Contains two folders, one with the hall sensors and the other with the FSRs.
-For all the Hall sensor PCBs, all the components were bought separatly and soldered by hand. 
-For the FSRs PCBs, there are no components to solder, one only needs to buy the PCBs. 
 
-## IMU
-The IMU folder contains various versions of the IMU. 
-IMU_V2 is the round PCB that is used for the squid/tentacle projects. They are also the PCBs that need to be mounted on Max's PCB.
-IMU_V3 is the sets of PCBs designed for the Helix type robot. There is the main PCBs that has the space for 2 perpendicular IMUs, the teensy and the I2C Qwiic connectors. There are also the files for the rectangular IMUs. Both types are accompanied by a pdf explaining everything needed to know for the IMUs. 
+## Arduino code description
+- FullHand_HallSensors : This code reads the data of all the sensors and sends it over serial so it can be read in a python script for example.
+- FullHand_Haptic : does the same as the 'FullHand_HallSensors' code (reads all the sensor data and sends it over serial) but has in addition the haptic feedback. It controls 5 vibration motor based on the tip sensor values.
+-  FullHand_Haptic_ForAdaptHand : Reads all the sensor values. It is compatible with Kai's full hand framework.
+-  SingleFinger_withSpringHallSensor : Code for the single finger setup. Reads the 7 hall sensor data + the hall sensor for the spring and sends the data over serial.
 
-The IMUs are bought with the top side soldered on by JLCPCB. They have recently changed there classification of these sensors, so they must be bought in larger quantities and in panels because the PCBs are too small otherwise. The minimum quantity for the V3 was 45 IMUs. The back side of the PCBs must then be soldered by hand. 
-For the main PCB, all the components were bought separatly and soldered by hand.
-
-## MPXH6115AC6U_breakout
-Contains the files for the PCBs that Kai asked for, it is a breakout for the MPXH6115AC6U pressure sensor.
-
-## Tongue
-Contains the files for Benhui's Tongue PCB. 
-All the components were bought separatly and soldered by hand. 
+## Python code description
+- FullHand_tip_visualisation : receives data via serial from the teensy (running the 'FullHand_HallSensors' or 'FullHand_Haptic' code) and displays circles whose area is proportional to the sensor readings. Works only with the tip sensors.
+- FullHand_visualisation : receives data via serial from the teensy (running the 'FullHand_HallSensors' or 'FullHand_Haptic' code) and displays circles whose area is proportional to the sensor readings. Works for all the sensors. 
