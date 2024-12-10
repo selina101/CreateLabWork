@@ -10,4 +10,4 @@ There are three PCBs for the finger FSRs:
   - The FPCB that has the electrodes in its width, and the circular electrodes on the front. The rectangular electrodes are put in contact with the velostat, and the circular electrodes allow for connections to a hydrogel if desired
   - A main PCB that helps connect all these electrodes to a Teensy microcontroller. 
 
-<img src="FSR_Finger.png" alt="FSR_Finger" width="30%">
+<img src="FSR_Finger.png" alt="FSR_Finger" width="50%">
