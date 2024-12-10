@@ -6,6 +6,8 @@ For the PCBs, you will find all the KiCAD files, as well as the gerber files to 
 
 ## GOAT
 Contains the PCB for Max's robot. 
+
+
 All the components were bought separately and soldered by hand. 
 
 ## Hands
