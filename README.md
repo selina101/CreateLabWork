@@ -9,7 +9,7 @@ Contains the PCB for Max's robot.
 
 All the components were bought separately and soldered by hand. 
 
-[Images/Max_MainPCB.png](PCB)
+![PCB](Images/Max_MainPCB.png)
 
 ## Hands
 Contains two folders, one with the hall sensors and the other with the FSRs.
