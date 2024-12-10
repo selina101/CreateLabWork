@@ -1,5 +1,5 @@
-# CreateLabWork
-In this repo you will find all the work done during the master thesis and during the master valorisation.
+# CreateLab work
+In this repo you will find all the work done during the master thesis and during the master valorisation (02/2024-12/2024).
 
 For the PCBs, you will find all the KiCAD files, as well as the gerber files to be able to order PCBs. The file 'PCB library' contains the footprint, the symbols and the 3D models of all the components used for all of the PCBs.
 
