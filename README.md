@@ -11,18 +11,23 @@ All the components were bought separately and soldered by hand.
 
 ![PCB](Images/Max_MainPCB.png)
 
+
 ## Hands
 Contains two folders, one with the hall sensors and the other with the FSRs.
 
 For all the Hall sensor PCBs, all the components were bought separatly and soldered by hand. 
-For the FSRs PCBs, there are no components to solder, one only needs to buy the PCBs. 
-
 <img src="Images/MasterThesis_Electronics.png" alt="MasterThesis_Electronics" width="70%">
+
+
+For the FSRs PCBs, there are no components to solder, one only needs to buy the PCBs. 
+<img src="Images/FSR_Finger.png" alt="FSR_Finger" width="70%">
+
 
 ## IMU
 The IMU folder contains various versions of the IMU. 
 
 IMU_V2 is the round PCB that is used for the squid/tentacle projects. They are also the PCBs that need to be mounted on Max's PCB.
+
 ![IMU_V2](Images/IMU_V2.png)
 
 IMU_V3 is the sets of PCBs designed for the Helix type robot. There is the main PCBs that has the space for 2 perpendicular IMUs, the teensy and the I2C Qwiic connectors. There are also the files for the rectangular IMUs. 
