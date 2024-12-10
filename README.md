@@ -26,7 +26,7 @@ IMU_V2 is the round PCB that is used for the squid/tentacle projects. They are a
 ![IMU_V2](Images/IMU_V2.png)
 
 IMU_V3 is the sets of PCBs designed for the Helix type robot. There is the main PCBs that has the space for 2 perpendicular IMUs, the teensy and the I2C Qwiic connectors. There are also the files for the rectangular IMUs. 
-<img src="Images/IMU_V3.png" alt="IMU_V3" width="50%">
+<img src="Images/IMU_V3.png" alt="IMU_V3" width="30%">
 
 Both types are accompanied by a pdf explaining everything needed to know for the IMUs. 
 
