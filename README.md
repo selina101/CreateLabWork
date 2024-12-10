@@ -15,12 +15,14 @@ All the components were bought separately and soldered by hand.
 ## Hands
 Contains two folders, one with the hall sensors and the other with the FSRs.
 
-For all the Hall sensor PCBs, all the components were bought separatly and soldered by hand. 
+For all the Hall sensor PCBs, all the components were bought separately and soldered by hand. 
 
 <img src="Images/MasterThesis_Electronics.png" alt="MasterThesis_Electronics" width="70%">
 
 
-For the FSRs PCBs, there are no components to solder, one only needs to buy the PCBs. 
+For the FSRs PCBs, there are no components to solder, one only needs to buy the PCBs and cut the velostat. 
+
+There is a main PCB that allows for connections. On this PCB, 1206 10kOhm pullup resistors are used, and need to be soldered by hand. If the electrodes are used for a hydrogel, a Adafruit ADS7830 Breakout board is needed. 
 
 <img src="Images/FSR_Finger.png" alt="FSR_Finger" width="30%">
 
@@ -39,7 +41,7 @@ IMU_V3 is the sets of PCBs designed for the Helix type robot. There is the main 
 Both types are accompanied by a pdf explaining everything needed to know for the IMUs. 
 
 The IMUs are bought with the top side soldered on by JLCPCB. They have recently changed there classification of these sensors, so they must be bought in larger quantities and in panels because the PCBs are too small otherwise. The minimum quantity for the V3 was 45 IMUs. The back side of the PCBs must then be soldered by hand. 
-For the main PCB, all the components were bought separatly and soldered by hand.
+For the main PCB, all the components were bought separately and soldered by hand.
 
 ## MPXH6115AC6U_breakout
 Contains the files for the PCBs that Kai asked for, it is a breakout for the MPXH6115AC6U pressure sensor.
@@ -51,7 +53,7 @@ Contains the files for the PCBs that Kai asked for, it is a breakout for the MPX
 Contains the files for Benhui's Tongue PCB. 
 
 
-All the components were bought separatly and soldered by hand. 
+All the components were bought separately and soldered by hand. 
 
 ![Tongue PCB](Images/TonguePCB.png)
 
