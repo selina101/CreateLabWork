@@ -36,7 +36,7 @@ For the main PCB, all the components were bought separatly and soldered by hand.
 ## MPXH6115AC6U_breakout
 Contains the files for the PCBs that Kai asked for, it is a breakout for the MPXH6115AC6U pressure sensor.
 
-![Pressure Breakout board](Images/Pressure_breakout.png)
+![Pressure Breakout board](Images/Pressure_breakout.png; style="width:50%; height:auto)
 
 ## Tongue
 Contains the files for Benhui's Tongue PCB. 
