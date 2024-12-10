@@ -16,10 +16,12 @@ All the components were bought separately and soldered by hand.
 Contains two folders, one with the hall sensors and the other with the FSRs.
 
 For all the Hall sensor PCBs, all the components were bought separatly and soldered by hand. 
+
 <img src="Images/MasterThesis_Electronics.png" alt="MasterThesis_Electronics" width="70%">
 
 
 For the FSRs PCBs, there are no components to solder, one only needs to buy the PCBs. 
+
 <img src="Images/FSR_Finger.png" alt="FSR_Finger" width="30%">
 
 
