@@ -4,9 +4,10 @@
 
 
 # PCBs
-In MainPCB_V3, do not use the DMP31D0U-7 MOSFET but instead use the BSS84. The teensy is not capable of delivering enough current to drive the DMP31D0U-7 gate. 
 
-For each hand, you will need one Thumb_V1 FPCB, three Index_Middle_Ring_V3 FPCB, one Pinky_V1 and one MainPCB_V3. 
+There are three PCBs for the finger FSRs:
+  - The FPCB that has the electrodes in its height. It has the back side in contact with the finger, and the electrodes in contact with the velostat.
+  - The FPCB that has the electrodes in its width, and the circular electrodes on the front. The rectangular electrodes are put in contact with the velostat, and the circular electrodes allow for connections to a hydrogel if desired
+  - A main PCB that helps connect all these electrodes to a Teensy microcontroller. 
 
-The hall sensors exist in three versions (with three different I2C addresses). The correct sensor placement is shown in 'FullHandDiagram.png'. 
-![Full hand sensor positions](FullHandDiagram.png)
+<img src="Images/FSR_Finger.png" alt="FSR_Finger" width="30%">
