@@ -17,7 +17,7 @@ Contains two folders, one with the hall sensors and the other with the FSRs.
 For all the Hall sensor PCBs, all the components were bought separatly and soldered by hand. 
 For the FSRs PCBs, there are no components to solder, one only needs to buy the PCBs. 
 
-<img src="Images/MasterThesis_Electronics.png" alt="MasterThesis_Electronics" width="7%">
+<img src="Images/MasterThesis_Electronics.png" alt="MasterThesis_Electronics" width="70%">
 
 ## IMU
 The IMU folder contains various versions of the IMU. 
