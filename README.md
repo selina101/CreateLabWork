@@ -7,8 +7,9 @@ For the PCBs, you will find all the KiCAD files, as well as the gerber files to 
 ## GOAT
 Contains the PCB for Max's robot. 
 
-
 All the components were bought separately and soldered by hand. 
+
+[Images/Max_MainPCB.png](PCB)
 
 ## Hands
 Contains two folders, one with the hall sensors and the other with the FSRs.
