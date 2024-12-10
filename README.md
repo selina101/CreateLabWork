@@ -20,7 +20,7 @@ For all the Hall sensor PCBs, all the components were bought separatly and solde
 
 
 For the FSRs PCBs, there are no components to solder, one only needs to buy the PCBs. 
-<img src="Images/FSR_Finger.png" alt="FSR_Finger" width="70%">
+<img src="Images/FSR_Finger.png" alt="FSR_Finger" width="30%">
 
 
 ## IMU
