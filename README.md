@@ -5,7 +5,7 @@ For the PCBs, you will find all the KiCAD files, as well as the gerber files to 
 
 
 ## Goat power PCB
-Contains the PCB for Max's robot. 
+Contains the power distribution PCB for Max's robot. 
 
 All the components were bought separately and soldered by hand. 
 
